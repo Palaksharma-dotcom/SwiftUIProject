@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF326DD62990CAD60019E379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DD52990CAD60019E379 /* AppDelegate.swift */; };
+		DF326DD82990CAD60019E379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DD72990CAD60019E379 /* SceneDelegate.swift */; };
+		DF326DDA2990CAD70019E379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DD92990CAD70019E379 /* ViewController.swift */; };
+		DF326DDD2990CAD70019E379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF326DDB2990CAD70019E379 /* Main.storyboard */; };
+		DF326DDF2990CAD80019E379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF326DDE2990CAD80019E379 /* Assets.xcassets */; };
+		DF326DE22990CAD80019E379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF326DE02990CAD80019E379 /* LaunchScreen.storyboard */; };
+		DF326DED2990CAD80019E379 /* JustEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DEC2990CAD80019E379 /* JustEatTests.swift */; };
+		DF326DF72990CAD80019E379 /* JustEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DF62990CAD80019E379 /* JustEatUITests.swift */; };
+		DF326DF92990CAD80019E379 /* JustEatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326DF82990CAD80019E379 /* JustEatUITestsLaunchTests.swift */; };
+		DF326E062990D26C0019E379 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326E052990D26C0019E379 /* BaseViewController.swift */; };
+		DF326E0E299243820019E379 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF326E0D299243820019E379 /* Signup.swift */; };
+		DF9A7EA929938DA500D1A982 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A7EA829938DA500D1A982 /* CustomButton.swift */; };
+		DF9A7EAB2993B89C00D1A982 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A7EAA2993B89C00D1A982 /* LogIn.swift */; };
+		DFD213C22993671D0035AB12 /* CustomFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD213C12993671D0035AB12 /* CustomFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF326DE92990CAD80019E379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF326DCA2990CAD60019E379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF326DD12990CAD60019E379;
+			remoteInfo = JustEat;
+		};
+		DF326DF32990CAD80019E379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF326DCA2990CAD60019E379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF326DD12990CAD60019E379;
+			remoteInfo = JustEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF326DD22990CAD60019E379 /* JustEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF326DD52990CAD60019E379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF326DD72990CAD60019E379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF326DD92990CAD70019E379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF326DDC2990CAD70019E379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF326DDE2990CAD80019E379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF326DE12990CAD80019E379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF326DE32990CAD80019E379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF326DE82990CAD80019E379 /* JustEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF326DEC2990CAD80019E379 /* JustEatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEatTests.swift; sourceTree = "<group>"; };
+		DF326DF22990CAD80019E379 /* JustEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF326DF62990CAD80019E379 /* JustEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEatUITests.swift; sourceTree = "<group>"; };
+		DF326DF82990CAD80019E379 /* JustEatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF326E052990D26C0019E379 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DF326E0D299243820019E379 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		DF9A7EA829938DA500D1A982 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DF9A7EAA2993B89C00D1A982 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		DFD213C12993671D0035AB12 /* CustomFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF326DCF2990CAD60019E379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DE52990CAD80019E379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DEF2990CAD80019E379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF326DC92990CAD60019E379 = {
+			isa = PBXGroup;
+			children = (
+				DF326DD42990CAD60019E379 /* JustEat */,
+				DF326DEB2990CAD80019E379 /* JustEatTests */,
+				DF326DF52990CAD80019E379 /* JustEatUITests */,
+				DF326DD32990CAD60019E379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF326DD32990CAD60019E379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF326DD22990CAD60019E379 /* JustEat.app */,
+				DF326DE82990CAD80019E379 /* JustEatTests.xctest */,
+				DF326DF22990CAD80019E379 /* JustEatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF326DD42990CAD60019E379 /* JustEat */ = {
+			isa = PBXGroup;
+			children = (
+				DF326DD52990CAD60019E379 /* AppDelegate.swift */,
+				DF326DD72990CAD60019E379 /* SceneDelegate.swift */,
+				DF326DD92990CAD70019E379 /* ViewController.swift */,
+				DF326E0D299243820019E379 /* Signup.swift */,
+				DF9A7EAA2993B89C00D1A982 /* LogIn.swift */,
+				DFD213C12993671D0035AB12 /* CustomFile.swift */,
+				DF326DDB2990CAD70019E379 /* Main.storyboard */,
+				DF9A7EA829938DA500D1A982 /* CustomButton.swift */,
+				DF326DDE2990CAD80019E379 /* Assets.xcassets */,
+				DF326DE02990CAD80019E379 /* LaunchScreen.storyboard */,
+				DF326E052990D26C0019E379 /* BaseViewController.swift */,
+				DF326DE32990CAD80019E379 /* Info.plist */,
+			);
+			path = JustEat;
+			sourceTree = "<group>";
+		};
+		DF326DEB2990CAD80019E379 /* JustEatTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF326DEC2990CAD80019E379 /* JustEatTests.swift */,
+			);
+			path = JustEatTests;
+			sourceTree = "<group>";
+		};
+		DF326DF52990CAD80019E379 /* JustEatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF326DF62990CAD80019E379 /* JustEatUITests.swift */,
+				DF326DF82990CAD80019E379 /* JustEatUITestsLaunchTests.swift */,
+			);
+			path = JustEatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF326DD12990CAD60019E379 /* JustEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF326DFC2990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEat" */;
+			buildPhases = (
+				DF326DCE2990CAD60019E379 /* Sources */,
+				DF326DCF2990CAD60019E379 /* Frameworks */,
+				DF326DD02990CAD60019E379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustEat;
+			productName = JustEat;
+			productReference = DF326DD22990CAD60019E379 /* JustEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF326DE72990CAD80019E379 /* JustEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF326DFF2990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEatTests" */;
+			buildPhases = (
+				DF326DE42990CAD80019E379 /* Sources */,
+				DF326DE52990CAD80019E379 /* Frameworks */,
+				DF326DE62990CAD80019E379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF326DEA2990CAD80019E379 /* PBXTargetDependency */,
+			);
+			name = JustEatTests;
+			productName = JustEatTests;
+			productReference = DF326DE82990CAD80019E379 /* JustEatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF326DF12990CAD80019E379 /* JustEatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF326E022990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEatUITests" */;
+			buildPhases = (
+				DF326DEE2990CAD80019E379 /* Sources */,
+				DF326DEF2990CAD80019E379 /* Frameworks */,
+				DF326DF02990CAD80019E379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF326DF42990CAD80019E379 /* PBXTargetDependency */,
+			);
+			name = JustEatUITests;
+			productName = JustEatUITests;
+			productReference = DF326DF22990CAD80019E379 /* JustEatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF326DCA2990CAD60019E379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF326DD12990CAD60019E379 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DF326DE72990CAD80019E379 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DF326DD12990CAD60019E379;
+					};
+					DF326DF12990CAD80019E379 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DF326DD12990CAD60019E379;
+					};
+				};
+			};
+			buildConfigurationList = DF326DCD2990CAD60019E379 /* Build configuration list for PBXProject "JustEat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF326DC92990CAD60019E379;
+			productRefGroup = DF326DD32990CAD60019E379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF326DD12990CAD60019E379 /* JustEat */,
+				DF326DE72990CAD80019E379 /* JustEatTests */,
+				DF326DF12990CAD80019E379 /* JustEatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF326DD02990CAD60019E379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF326DE22990CAD80019E379 /* LaunchScreen.storyboard in Resources */,
+				DF326DDF2990CAD80019E379 /* Assets.xcassets in Resources */,
+				DF326DDD2990CAD70019E379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DE62990CAD80019E379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DF02990CAD80019E379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF326DCE2990CAD60019E379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD213C22993671D0035AB12 /* CustomFile.swift in Sources */,
+				DF326DDA2990CAD70019E379 /* ViewController.swift in Sources */,
+				DF326E0E299243820019E379 /* Signup.swift in Sources */,
+				DF326E062990D26C0019E379 /* BaseViewController.swift in Sources */,
+				DF9A7EA929938DA500D1A982 /* CustomButton.swift in Sources */,
+				DF326DD62990CAD60019E379 /* AppDelegate.swift in Sources */,
+				DF326DD82990CAD60019E379 /* SceneDelegate.swift in Sources */,
+				DF9A7EAB2993B89C00D1A982 /* LogIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DE42990CAD80019E379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF326DED2990CAD80019E379 /* JustEatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF326DEE2990CAD80019E379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF326DF72990CAD80019E379 /* JustEatUITests.swift in Sources */,
+				DF326DF92990CAD80019E379 /* JustEatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF326DEA2990CAD80019E379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF326DD12990CAD60019E379 /* JustEat */;
+			targetProxy = DF326DE92990CAD80019E379 /* PBXContainerItemProxy */;
+		};
+		DF326DF42990CAD80019E379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF326DD12990CAD60019E379 /* JustEat */;
+			targetProxy = DF326DF32990CAD80019E379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF326DDB2990CAD70019E379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF326DDC2990CAD70019E379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF326DE02990CAD80019E379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF326DE12990CAD80019E379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF326DFA2990CAD80019E379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF326DFB2990CAD80019E379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF326DFD2990CAD80019E379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF326DFE2990CAD80019E379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JustEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF326E002990CAD80019E379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustEat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JustEat";
+			};
+			name = Debug;
+		};
+		DF326E012990CAD80019E379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustEat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JustEat";
+			};
+			name = Release;
+		};
+		DF326E032990CAD80019E379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustEat;
+			};
+			name = Debug;
+		};
+		DF326E042990CAD80019E379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustEat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF326DCD2990CAD60019E379 /* Build configuration list for PBXProject "JustEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF326DFA2990CAD80019E379 /* Debug */,
+				DF326DFB2990CAD80019E379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF326DFC2990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF326DFD2990CAD80019E379 /* Debug */,
+				DF326DFE2990CAD80019E379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF326DFF2990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF326E002990CAD80019E379 /* Debug */,
+				DF326E012990CAD80019E379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF326E022990CAD80019E379 /* Build configuration list for PBXNativeTarget "JustEatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF326E032990CAD80019E379 /* Debug */,
+				DF326E042990CAD80019E379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF326DCA2990CAD60019E379 /* Project object */;
+}

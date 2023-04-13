@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF820B2F29C1A2FC0048F15B /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B2E29C1A2FC0048F15B /* GetStartedView.swift */; };
+		DF820B3129C1A3810048F15B /* JEPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3029C1A3810048F15B /* JEPasswordField.swift */; };
+		DF820B3329C1A3990048F15B /* JENavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3229C1A3990048F15B /* JENavigationBar.swift */; };
+		DF820B3529C1A3A90048F15B /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3429C1A3A90048F15B /* GroceryView.swift */; };
+		DF820B3729C1A3B80048F15B /* DishRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3629C1A3B80048F15B /* DishRow.swift */; };
+		DF820B3929C1A3CE0048F15B /* RestrauntItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3829C1A3CE0048F15B /* RestrauntItems.swift */; };
+		DF820B3B29C1A3E00048F15B /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3A29C1A3E00048F15B /* DeliveryView.swift */; };
+		DF820B3D29C1A3EA0048F15B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B3C29C1A3EA0048F15B /* MainView.swift */; };
+		DF820B4129C1A40E0048F15B /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4029C1A40E0048F15B /* HotelModel.swift */; };
+		DF820B4329C1A41C0048F15B /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4229C1A41C0048F15B /* ApiData.swift */; };
+		DF820B4529C1A4280048F15B /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4429C1A4280048F15B /* DishModel.swift */; };
+		DF820B4729C1A43A0048F15B /* JESecuredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4629C1A43A0048F15B /* JESecuredField.swift */; };
+		DF820B4929C1A4490048F15B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4829C1A4490048F15B /* ProfileView.swift */; };
+		DF820B4B29C1A4590048F15B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4A29C1A4590048F15B /* NetworkManager.swift */; };
+		DF820B4D29C1A4630048F15B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4C29C1A4630048F15B /* LoginView.swift */; };
+		DF820B4F29C1A4E20048F15B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B4E29C1A4E20048F15B /* PrimaryButton.swift */; };
+		DF820B5129C1A4EF0048F15B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B5029C1A4EF0048F15B /* SecondaryButton.swift */; };
+		DF820B5329C1A5050048F15B /* JETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B5229C1A5050048F15B /* JETextField.swift */; };
+		DF820B5529C1A5130048F15B /* JEDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B5429C1A5130048F15B /* JEDateField.swift */; };
+		DF820B5729C1A5E00048F15B /* UIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF820B5629C1A5E00048F15B /* UIComponents.swift */; };
+		DFB2599929C1999E002883F9 /* JustEatQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2599829C1999E002883F9 /* JustEatQApp.swift */; };
+		DFB2599B29C1999E002883F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2599A29C1999E002883F9 /* ContentView.swift */; };
+		DFB2599D29C199A0002883F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2599C29C199A0002883F9 /* Assets.xcassets */; };
+		DFB259A029C199A0002883F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB2599F29C199A0002883F9 /* Preview Assets.xcassets */; };
+		DFB259A229C199A0002883F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB259A129C199A0002883F9 /* Persistence.swift */; };
+		DFB259A529C199A0002883F9 /* JustEatQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFB259A329C199A0002883F9 /* JustEatQ.xcdatamodeld */; };
+		DFB259AC29C19D33002883F9 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB259AB29C19D33002883F9 /* CartView.swift */; };
+		DFB259AE29C1A05E002883F9 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB259AD29C1A05E002883F9 /* UserSettings.swift */; };
+		DFB259B029C1A07A002883F9 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB259AF29C1A07A002883F9 /* UserData.swift */; };
+		DFB259B229C1A125002883F9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB259B129C1A125002883F9 /* SignUpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF820B2E29C1A2FC0048F15B /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		DF820B3029C1A3810048F15B /* JEPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEPasswordField.swift; sourceTree = "<group>"; };
+		DF820B3229C1A3990048F15B /* JENavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JENavigationBar.swift; sourceTree = "<group>"; };
+		DF820B3429C1A3A90048F15B /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
+		DF820B3629C1A3B80048F15B /* DishRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRow.swift; sourceTree = "<group>"; };
+		DF820B3829C1A3CE0048F15B /* RestrauntItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntItems.swift; sourceTree = "<group>"; };
+		DF820B3A29C1A3E00048F15B /* DeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
+		DF820B3C29C1A3EA0048F15B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DF820B4029C1A40E0048F15B /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		DF820B4229C1A41C0048F15B /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		DF820B4429C1A4280048F15B /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		DF820B4629C1A43A0048F15B /* JESecuredField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JESecuredField.swift; sourceTree = "<group>"; };
+		DF820B4829C1A4490048F15B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DF820B4A29C1A4590048F15B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DF820B4C29C1A4630048F15B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF820B4E29C1A4E20048F15B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		DF820B5029C1A4EF0048F15B /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		DF820B5229C1A5050048F15B /* JETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JETextField.swift; sourceTree = "<group>"; };
+		DF820B5429C1A5130048F15B /* JEDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEDateField.swift; sourceTree = "<group>"; };
+		DF820B5629C1A5E00048F15B /* UIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponents.swift; sourceTree = "<group>"; };
+		DFB2599529C1999E002883F9 /* JustEatQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustEatQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2599829C1999E002883F9 /* JustEatQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustEatQApp.swift; sourceTree = "<group>"; };
+		DFB2599A29C1999E002883F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFB2599C29C199A0002883F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB2599F29C199A0002883F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFB259A129C199A0002883F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DFB259A429C199A0002883F9 /* JustEatQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustEatQ.xcdatamodel; sourceTree = "<group>"; };
+		DFB259AB29C19D33002883F9 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		DFB259AD29C1A05E002883F9 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		DFB259AF29C1A07A002883F9 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DFB259B129C1A125002883F9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB2599229C1999E002883F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB2598C29C1999E002883F9 = {
+			isa = PBXGroup;
+			children = (
+				DFB2599729C1999E002883F9 /* JustEatQ */,
+				DFB2599629C1999E002883F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB2599629C1999E002883F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2599529C1999E002883F9 /* JustEatQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB2599729C1999E002883F9 /* JustEatQ */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2599829C1999E002883F9 /* JustEatQApp.swift */,
+				DFB259AD29C1A05E002883F9 /* UserSettings.swift */,
+				DFB259AF29C1A07A002883F9 /* UserData.swift */,
+				DFB259B129C1A125002883F9 /* SignUpView.swift */,
+				DF820B2E29C1A2FC0048F15B /* GetStartedView.swift */,
+				DFB2599A29C1999E002883F9 /* ContentView.swift */,
+				DF820B3029C1A3810048F15B /* JEPasswordField.swift */,
+				DF820B3229C1A3990048F15B /* JENavigationBar.swift */,
+				DF820B3429C1A3A90048F15B /* GroceryView.swift */,
+				DF820B3629C1A3B80048F15B /* DishRow.swift */,
+				DF820B3829C1A3CE0048F15B /* RestrauntItems.swift */,
+				DF820B3A29C1A3E00048F15B /* DeliveryView.swift */,
+				DF820B3C29C1A3EA0048F15B /* MainView.swift */,
+				DF820B4029C1A40E0048F15B /* HotelModel.swift */,
+				DF820B4229C1A41C0048F15B /* ApiData.swift */,
+				DF820B4429C1A4280048F15B /* DishModel.swift */,
+				DF820B4629C1A43A0048F15B /* JESecuredField.swift */,
+				DFB259AB29C19D33002883F9 /* CartView.swift */,
+				DF820B4829C1A4490048F15B /* ProfileView.swift */,
+				DF820B4A29C1A4590048F15B /* NetworkManager.swift */,
+				DF820B4C29C1A4630048F15B /* LoginView.swift */,
+				DF820B4E29C1A4E20048F15B /* PrimaryButton.swift */,
+				DF820B5029C1A4EF0048F15B /* SecondaryButton.swift */,
+				DF820B5229C1A5050048F15B /* JETextField.swift */,
+				DF820B5429C1A5130048F15B /* JEDateField.swift */,
+				DF820B5629C1A5E00048F15B /* UIComponents.swift */,
+				DFB2599C29C199A0002883F9 /* Assets.xcassets */,
+				DFB259A129C199A0002883F9 /* Persistence.swift */,
+				DFB259A329C199A0002883F9 /* JustEatQ.xcdatamodeld */,
+				DFB2599E29C199A0002883F9 /* Preview Content */,
+			);
+			path = JustEatQ;
+			sourceTree = "<group>";
+		};
+		DFB2599E29C199A0002883F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2599F29C199A0002883F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB2599429C1999E002883F9 /* JustEatQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB259A829C199A0002883F9 /* Build configuration list for PBXNativeTarget "JustEatQ" */;
+			buildPhases = (
+				DFB2599129C1999E002883F9 /* Sources */,
+				DFB2599229C1999E002883F9 /* Frameworks */,
+				DFB2599329C1999E002883F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustEatQ;
+			productName = JustEatQ;
+			productReference = DFB2599529C1999E002883F9 /* JustEatQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB2598D29C1999E002883F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DFB2599429C1999E002883F9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DFB2599029C1999E002883F9 /* Build configuration list for PBXProject "JustEatQ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB2598C29C1999E002883F9;
+			productRefGroup = DFB2599629C1999E002883F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB2599429C1999E002883F9 /* JustEatQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB2599329C1999E002883F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB259A029C199A0002883F9 /* Preview Assets.xcassets in Resources */,
+				DFB2599D29C199A0002883F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB2599129C1999E002883F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF820B4129C1A40E0048F15B /* HotelModel.swift in Sources */,
+				DFB259AC29C19D33002883F9 /* CartView.swift in Sources */,
+				DF820B4329C1A41C0048F15B /* ApiData.swift in Sources */,
+				DFB259AE29C1A05E002883F9 /* UserSettings.swift in Sources */,
+				DF820B4D29C1A4630048F15B /* LoginView.swift in Sources */,
+				DF820B5729C1A5E00048F15B /* UIComponents.swift in Sources */,
+				DF820B4B29C1A4590048F15B /* NetworkManager.swift in Sources */,
+				DF820B5329C1A5050048F15B /* JETextField.swift in Sources */,
+				DF820B4F29C1A4E20048F15B /* PrimaryButton.swift in Sources */,
+				DF820B3529C1A3A90048F15B /* GroceryView.swift in Sources */,
+				DFB259B029C1A07A002883F9 /* UserData.swift in Sources */,
+				DFB259A229C199A0002883F9 /* Persistence.swift in Sources */,
+				DF820B5129C1A4EF0048F15B /* SecondaryButton.swift in Sources */,
+				DF820B3929C1A3CE0048F15B /* RestrauntItems.swift in Sources */,
+				DF820B2F29C1A2FC0048F15B /* GetStartedView.swift in Sources */,
+				DF820B4729C1A43A0048F15B /* JESecuredField.swift in Sources */,
+				DF820B4529C1A4280048F15B /* DishModel.swift in Sources */,
+				DFB259B229C1A125002883F9 /* SignUpView.swift in Sources */,
+				DF820B3329C1A3990048F15B /* JENavigationBar.swift in Sources */,
+				DF820B3D29C1A3EA0048F15B /* MainView.swift in Sources */,
+				DF820B3729C1A3B80048F15B /* DishRow.swift in Sources */,
+				DF820B3129C1A3810048F15B /* JEPasswordField.swift in Sources */,
+				DFB2599B29C1999E002883F9 /* ContentView.swift in Sources */,
+				DFB259A529C199A0002883F9 /* JustEatQ.xcdatamodeld in Sources */,
+				DF820B3B29C1A3E00048F15B /* DeliveryView.swift in Sources */,
+				DF820B5529C1A5130048F15B /* JEDateField.swift in Sources */,
+				DF820B4929C1A4490048F15B /* ProfileView.swift in Sources */,
+				DFB2599929C1999E002883F9 /* JustEatQApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFB259A629C199A0002883F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB259A729C199A0002883F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB259A929C199A0002883F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustEatQ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB259AA29C199A0002883F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JustEatQ/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Palak.JustEatQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB2599029C1999E002883F9 /* Build configuration list for PBXProject "JustEatQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB259A629C199A0002883F9 /* Debug */,
+				DFB259A729C199A0002883F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB259A829C199A0002883F9 /* Build configuration list for PBXNativeTarget "JustEatQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB259A929C199A0002883F9 /* Debug */,
+				DFB259AA29C199A0002883F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFB259A329C199A0002883F9 /* JustEatQ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFB259A429C199A0002883F9 /* JustEatQ.xcdatamodel */,
+			);
+			currentVersion = DFB259A429C199A0002883F9 /* JustEatQ.xcdatamodel */;
+			path = JustEatQ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFB2598D29C1999E002883F9 /* Project object */;
+}
